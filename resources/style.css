@@ -1754,6 +1754,7 @@
             box-shadow: 0px 6px 10px 0px #0000001A;
             padding: 15px;
             border-radius: 12px;
+            margin: 10px 0;
         }
         
         .memberShipCard2 {
@@ -2363,6 +2364,442 @@
             transition: all 0.2s;
         }
         /* FAQ page end */
+        /* Career Start */
+        
+        #Career .career {
+            background-color: #F4F4F4;
+            padding: 20px;
+        }
+        
+        #Career .filter {
+            padding-right: 10px;
+            border-right: 1px solid #83B9FC8C;
+        }
+        
+        #Career .filterText {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        #Career .filterText span {
+            font-size: 20px;
+            color: #324970;
+        }
+        
+        #Career .accordion-body {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            align-items: start;
+        }
+        
+        #Career .accordion-body label {
+            color: #324970;
+            font-size: 22px;
+        }
+        
+        #Career .accordion-body input[type=checkbox] {
+            /* Double-sized Checkboxes */
+            -ms-transform: scale(2);
+            /* IE */
+            -moz-transform: scale(2);
+            /* FF */
+            -webkit-transform: scale(2);
+            /* Safari and Chrome */
+            -o-transform: scale(2);
+            /* Opera */
+            transform: scale(2);
+            padding: 10px;
+            margin: 10px 10px 10px 0;
+        }
+        
+        #Career .accordion-button:not(.collapsed) {
+            color: #324970 !important;
+            background-color: transparent !important;
+            box-shadow: inherit !important;
+        }
+        
+        #Career .accordion-button:focus {
+            z-index: 3;
+            border-color: none !important;
+            outline: 0;
+            box-shadow: inherit !important;
+        }
+        
+        #Career .accordion-item {
+            background-color: transparent !important;
+            border: none !important;
+        }
+        
+        #Career .accordion-button {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 0 !important;
+            margin-top: 30px;
+            font-size: 1.5rem;
+            color: #324970;
+            font-weight: 500;
+            text-align: left;
+            background-color: transparent !important;
+            border: 0;
+            border-radius: 0;
+            overflow-anchor: none;
+            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+        }
+        
+        #Career .Jobs input[type="search"] {
+            -webkit-appearance: none !important;
+            background-clip: padding-box;
+            background-color: white;
+            vertical-align: middle;
+            border-radius: 0.25rem;
+            border: none;
+            box-shadow: 0px 4px 12px 0px #00000026;
+            font-size: 1rem;
+            width: 100%;
+            line-height: 2;
+            padding: 0.375rem 1.25rem;
+            -webkit-transition: border-color 0.2s;
+            -moz-transition: border-color 0.2s;
+            transition: border-color 0.2s;
+        }
+        
+        #Career .Jobs input[type="search"]:focus {
+            transition: all 0.5s;
+            box-shadow: 0 0 40px #f9d442 b9;
+            border-color: #f9d342;
+            outline: none;
+        }
+        
+        #Career .Jobs form.search-form {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #Career .Jobs label {
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: auto;
+            align-self: center;
+            margin-bottom: 0;
+        }
+        
+        #Career .Jobs input.search-field {
+            margin-bottom: 0;
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: auto;
+            align-self: center;
+            height: 51px;
+            border-radius: 20px 0 0 20px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        
+        #Career .Jobs input.search-submit {
+            height: 51px;
+            margin: 0;
+            padding: 1rem 1.3rem;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-top-right-radius: 0.25rem;
+            border-bottom-right-radius: 0.25rem;
+            font-family: "Font Awesome 5 Pro";
+            font-size: 16px;
+            background: #fff;
+            border-radius: 0 20px 20px 0;
+            box-shadow: 0px 4px 12px 0px #00000026;
+        }
+        
+        #Career .Jobs .screen-reader-text {
+            clip: rect(1px, 1px, 1px, 1px);
+            position: absolute !important;
+            height: 1px;
+            width: 1px;
+            overflow: hidden;
+        }
+        
+        #Career .Jobs .button {
+            display: inline-block;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.15;
+            letter-spacing: 0.1rem;
+            background: transparent;
+            font-weight: 400;
+            color: #000;
+            border: 1px solid transparent;
+            border-radius: 0 10px 10px 0;
+            vertical-align: middle;
+            text-shadow: none;
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            transition: all 0.2s;
+        }
+        
+        #Career .tags {
+            margin: 10px 0;
+        }
+        
+        #Career .tags button {
+            border: none;
+            background-color: #2386FF8C;
+            box-shadow: 0px 4px 10px 0px #0000000D;
+            padding: 10px;
+            border-radius: 20px;
+            color: #fff;
+            font-weight: 500;
+            margin: 0 5px;
+        }
+        
+        #Career .jobs-card {
+            background-color: #fff;
+            box-shadow: 4px 4px 10px 0px #0000001A;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        
+        #Career .applyBtn {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        #Career .nameJobs h3 {
+            color: #324970;
+        }
+        
+        #Career .nameJobs h3 i {
+            color: #8C3AAA;
+        }
+        
+        #Career .nameJobs span {
+            color: #324970;
+            font-size: 20px;
+        }
+        
+        #Career .nameJobs span i {
+            color: #FF8D47;
+        }
+        
+        #Career hr {
+            background-color: #32497040 !important;
+        }
+        
+        #Career .applyBtn button {
+            padding: 8px 15px;
+            color: #fff;
+            border-radius: 5px;
+            background-color: #FF8D47;
+            border: none;
+            transition: .4s ease;
+            border: 1px solid #FF8D47;
+        }
+        
+        #Career .applyBtn button:hover {
+            color: #FF8D47;
+            border-radius: 5px;
+            background-color: transparent;
+        }
+        
+        #Career .tagsJobs button {
+            border: none;
+            background-color: #2386FF8C;
+            box-shadow: 0px 4px 10px 0px #0000000D;
+            padding: 10px;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 500;
+            margin: 0 5px;
+        }
+        
+        #Career .socialJobs .footer-social {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            /* padding: 0 40px; */
+        }
+        
+        #Career .socialJobs .footer-social a {
+            background-color: #2386FF8C;
+            text-align: center;
+            padding: 5px 10px;
+            margin: 5px 10px;
+            border-radius: 100%;
+            transition: .4s ease;
+        }
+        
+        #Career .socialJobs .footer-social a:hover {
+            background-color: #fff;
+            color: #2386FF8C;
+        }
+        
+        #Career .socialJobs .footer-social a i {
+            color: #fff;
+            transition: .4 ease;
+        }
+        
+        #Career .socialJobs .footer-social a i:hover {
+            color: #2386FF8C;
+        }
+        /* Modal Start */
+        
+        #Apply .modal-dialog {
+            position: relative;
+            width: auto;
+            pointer-events: none;
+        }
+        
+        #Apply .modal-header h5 {
+            color: #324970;
+        }
+        
+        #Apply .vacancyContent ul li {
+            margin: 6px 0;
+            color: #324970;
+        }
+        
+        #Apply .vacancyContent ul span {
+            font-size: 20px;
+            font-weight: 500;
+            color: #324970;
+        }
+        
+        #Apply .modal-footer button {
+            padding: 8px 15px;
+            color: #fff;
+            border-radius: 5px;
+            background-color: #FF8D47;
+            border: none;
+            transition: .4s ease;
+            border: 1px solid #FF8D47;
+        }
+        
+        #Apply .modal-footer button:hover {
+            color: #FF8D47;
+            border-radius: 5px;
+            background-color: transparent;
+        }
+        
+        .modal-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            pointer-events: auto;
+            border-radius: 20px !important;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: none !important;
+            outline: 0;
+        }
+        /* Modal Start */
+        /* Career End */
+        /* Anket Start */
+        
+        #Anket .anket {
+            width: 100%;
+            height: auto;
+            padding: 20px 0;
+            background-color: #F4F4F4;
+        }
+        
+        #Anket .formsAnket {
+            width: 50%;
+            height: auto;
+            border-radius: 10px;
+            margin: auto;
+            background-color: #fff;
+            box-shadow: 4px 4px 10px 0px #0000001A;
+        }
+        
+        #Anket .formsAnket form {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+        }
+        
+        #Anket .formsAnket form label {
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+            color: #324970;
+            font-size: 18px;
+        }
+        
+        #Anket .formsAnket form .secondInput {
+            display: flex;
+            align-items: center;
+        }
+        
+        #Anket .formsAnket form input {
+            border: 1px solid #32497040;
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 10px;
+            color: #324970;
+        }
+        
+        #Anket .formsAnket form h4 {
+            color: #324970;
+        }
+        
+        #Anket .formsAnket form textarea {
+            border: 1px solid #32497040;
+            padding: 10px;
+            font-size: 14px;
+            height: 100px;
+            overflow: auto;
+            border-radius: 10px;
+            color: #324970;
+        }
+        
+        #Anket .form-title h5 {
+            color: #324970;
+        }
+        
+        #Anket form .fileInput p {
+            color: #000;
+            opacity: .4;
+        }
+        
+        #Anket form #custom-button {
+            padding: 10px 20px;
+            color: white;
+            background-color: #68D7FA;
+            box-shadow: 0px 4px 10px 0px #00000026;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        #Anket form #custom-button:hover {
+            background-color: #00A3FE;
+        }
+        
+        #Anket form #custom-text {
+            margin-left: 10px;
+            font-family: sans-serif;
+            color: #aaa;
+        }
+        
+        #Anket form .submitBtn {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+        }
+        
+        #Anket form .submitBtn button {
+            padding: 8px 15px;
+            color: #fff;
+            border-radius: 5px;
+            background-color: #FF8D47;
+            border: none;
+            transition: .4s ease;
+            border: 1px solid #FF8D47;
+        }
+        /* Anket End */
         /* Footer Start */
         
         footer {
