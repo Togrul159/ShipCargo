@@ -252,6 +252,18 @@
         border-right: none !important;
         margin-bottom: 30px;
     }
+    .p-c-m {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .s-t-m {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .l-m {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
 }
 
 @media only screen and (max-width:425px) {
